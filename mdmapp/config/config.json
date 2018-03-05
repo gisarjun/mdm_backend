@@ -1,0 +1,34 @@
+{
+    "development": {
+        "username": "mdmdbuser",
+        "password": "gis12345",
+        "database": "mdmappdb",
+        "host": "127.0.0.1",
+        "dialect": "postgres",
+        "secretKey": "mdmbackendapp",
+        "logging": true
+    },
+    "test": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "lockingapp",
+        "host": "127.0.0.1",
+        "dialect": "postgres",
+        "secretKey": "lockingapp"
+    },
+    "production": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "lockingapp",
+        "host": "127.0.0.1",
+        "dialect": "postgres",
+        "secretKey": "lockingapp"
+    },
+    "web": {
+        "client_id": "466190909253-4458s8keibekubqfk6uc1dafp6vt3irr.apps.googleusercontent.com",
+        "client_secret": "wEj8bwPoxQCjsjPG8PYErI6D"
+    },
+    "android": {
+        "notification_secret": "AIzaSyCQxkvCeHrHxcGen-jZ7tl7u6L-JpTelvw"
+    }
+}
